@@ -1,0 +1,117 @@
+html{
+ scroll-behavior: smooth;
+}
+.header{
+ background-color: #0984e3;
+}
+.logo img{
+ width: 100px;
+ height: auto;
+}
+.menu1{
+
+}
+.menu1 ul{
+ margin-bottom: 0px;
+ text-align: right;
+}
+.menu1 ul li{
+ display: inline-block;
+}
+.menu1 ul li a{
+ display: block;
+ color: #000000;
+ padding: 0 30px;
+ font-size: 15px;
+ line-height: 130px;
+ text-decoration: none;
+}
+.menu1 ul li a:hover{
+ background-color: #2471bf;
+ transition: .4s;
+}
+
+/* banner section */
+.banner{
+ background-image: url(/images/banner.jpg);
+ padding: 200px 0;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+.banner-text h1{
+ color: rgb(94, 61, 27);
+ font-weight: bold;
+ font-size: 80px;
+}
+.banner-text h2{
+ color: rgb(94, 61, 27);
+ font-size: 50px;
+}
+.about{
+ background-color: rgb(196, 196, 196);
+}
+.col-md-12 p{
+ font-size: 20px;
+}
+.services{
+ background-color: rgb(51, 109, 197);
+}
+.card span{
+ display: block;
+ height: 60px;
+ width: 60px;
+ background: #0984e3;
+ color: #000;
+ margin: auto;
+ font-size: 35px;
+ margin-top: 5px;
+ border-radius: 20px 0 20px 0;
+}
+img{
+ max-width: 100%;
+}
+.product-item{
+ background-color: rgb(196, 196, 196);
+
+}
+.product-item p{
+ font-size: 18px;
+}
+.product-right h2{
+ text-align: center;
+ margin-top: 15px;
+ margin-bottom: 10px;
+ font-size: 32px;
+ border-bottom: 1px solid #ddd;
+ padding-bottom: 6px;
+}
+.product-right ul{
+ list-style: none;
+
+}
+.product-right ul li{
+ border-top: 1px solid #ddd;
+ background: #fafafa;
+ padding: 10px;
+ font-size: 20px;
+ margin-bottom: 9px;
+ border-radius: 5px;
+}
+.footer{
+ background-color: #2c3e50;
+}
+.footer p{
+ margin-bottom: 0;
+}
+.footer a{
+ color: #fff;
+ margin-left: 15px;
+ display: inline-block;
+}
+.google-map{
+ border: 2px solid black;
+}
+.contact{
+ background: #d7e0e8;
+}
